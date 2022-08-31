@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D92B1C3328BF4C0D00D7BDAE /* libCustomButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D96D714628BF476400BC8617 /* libCustomButton.a */; };
+		D96D70FE28BE228600BC8617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D70FD28BE228600BC8617 /* AppDelegate.swift */; };
+		D96D710028BE228600BC8617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D70FF28BE228600BC8617 /* SceneDelegate.swift */; };
+		D96D710528BE228600BC8617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96D710328BE228600BC8617 /* Main.storyboard */; };
+		D96D710728BE228700BC8617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96D710628BE228700BC8617 /* Assets.xcassets */; };
+		D96D710A28BE228700BC8617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96D710828BE228700BC8617 /* LaunchScreen.storyboard */; };
+		D96D711528BE228700BC8617 /* ARSwiftAccessControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D711428BE228700BC8617 /* ARSwiftAccessControlTests.swift */; };
+		D96D711F28BE228700BC8617 /* ARSwiftAccessControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D711E28BE228700BC8617 /* ARSwiftAccessControlUITests.swift */; };
+		D96D712128BE228700BC8617 /* ARSwiftAccessControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D712028BE228700BC8617 /* ARSwiftAccessControlUITestsLaunchTests.swift */; };
+		D96D712E28BE22AB00BC8617 /* ARAccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D712D28BE22AB00BC8617 /* ARAccessControl.swift */; };
+		D96D713028BE22BC00BC8617 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D712F28BE22BC00BC8617 /* ARViewController.swift */; };
+		D96D713228BE26B500BC8617 /* ARSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D713128BE26B500BC8617 /* ARSubclass.swift */; };
+		D96D714928BF476400BC8617 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D714828BF476400BC8617 /* CustomButton.swift */; };
+		D96D715228BF487800BC8617 /* ARButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D715128BF487800BC8617 /* ARButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96D711128BE228700BC8617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96D70F228BE228600BC8617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96D70F928BE228600BC8617;
+			remoteInfo = ARSwiftAccessControl;
+		};
+		D96D711B28BE228700BC8617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96D70F228BE228600BC8617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96D70F928BE228600BC8617;
+			remoteInfo = ARSwiftAccessControl;
+		};
+		D96D714F28BF480100BC8617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96D70F228BE228600BC8617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96D714528BF476400BC8617;
+			remoteInfo = CustomButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D96D714428BF476400BC8617 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D96D70FA28BE228600BC8617 /* ARSwiftAccessControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSwiftAccessControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96D70FD28BE228600BC8617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96D70FF28BE228600BC8617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D96D710428BE228600BC8617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D96D710628BE228700BC8617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96D710928BE228700BC8617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D96D710B28BE228700BC8617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96D711028BE228700BC8617 /* ARSwiftAccessControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSwiftAccessControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96D711428BE228700BC8617 /* ARSwiftAccessControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSwiftAccessControlTests.swift; sourceTree = "<group>"; };
+		D96D711A28BE228700BC8617 /* ARSwiftAccessControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSwiftAccessControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96D711E28BE228700BC8617 /* ARSwiftAccessControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSwiftAccessControlUITests.swift; sourceTree = "<group>"; };
+		D96D712028BE228700BC8617 /* ARSwiftAccessControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSwiftAccessControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D96D712D28BE22AB00BC8617 /* ARAccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAccessControl.swift; sourceTree = "<group>"; };
+		D96D712F28BE22BC00BC8617 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		D96D713128BE26B500BC8617 /* ARSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSubclass.swift; sourceTree = "<group>"; };
+		D96D714628BF476400BC8617 /* libCustomButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCustomButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96D714828BF476400BC8617 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D96D715128BF487800BC8617 /* ARButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D96D70F728BE228600BC8617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B1C3328BF4C0D00D7BDAE /* libCustomButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D710D28BE228700BC8617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D711728BE228700BC8617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D714328BF476400BC8617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92B1C3228BF4C0D00D7BDAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D92B1C3428BF681600D7BDAE /* AccessControl */ = {
+			isa = PBXGroup;
+			children = (
+				D96D713128BE26B500BC8617 /* ARSubclass.swift */,
+				D96D712D28BE22AB00BC8617 /* ARAccessControl.swift */,
+			);
+			path = AccessControl;
+			sourceTree = "<group>";
+		};
+		D92B1C3528BF683E00D7BDAE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D96D715128BF487800BC8617 /* ARButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		D96D70F128BE228600BC8617 = {
+			isa = PBXGroup;
+			children = (
+				D96D70FC28BE228600BC8617 /* ARSwiftAccessControl */,
+				D96D711328BE228700BC8617 /* ARSwiftAccessControlTests */,
+				D96D711D28BE228700BC8617 /* ARSwiftAccessControlUITests */,
+				D96D714728BF476400BC8617 /* CustomButton */,
+				D96D70FB28BE228600BC8617 /* Products */,
+				D92B1C3228BF4C0D00D7BDAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D96D70FB28BE228600BC8617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96D70FA28BE228600BC8617 /* ARSwiftAccessControl.app */,
+				D96D711028BE228700BC8617 /* ARSwiftAccessControlTests.xctest */,
+				D96D711A28BE228700BC8617 /* ARSwiftAccessControlUITests.xctest */,
+				D96D714628BF476400BC8617 /* libCustomButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96D70FC28BE228600BC8617 /* ARSwiftAccessControl */ = {
+			isa = PBXGroup;
+			children = (
+				D96D70FD28BE228600BC8617 /* AppDelegate.swift */,
+				D96D70FF28BE228600BC8617 /* SceneDelegate.swift */,
+				D96D712F28BE22BC00BC8617 /* ARViewController.swift */,
+				D92B1C3428BF681600D7BDAE /* AccessControl */,
+				D92B1C3528BF683E00D7BDAE /* CustomView */,
+				D96D710328BE228600BC8617 /* Main.storyboard */,
+				D96D710628BE228700BC8617 /* Assets.xcassets */,
+				D96D710828BE228700BC8617 /* LaunchScreen.storyboard */,
+				D96D710B28BE228700BC8617 /* Info.plist */,
+			);
+			path = ARSwiftAccessControl;
+			sourceTree = "<group>";
+		};
+		D96D711328BE228700BC8617 /* ARSwiftAccessControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D96D711428BE228700BC8617 /* ARSwiftAccessControlTests.swift */,
+			);
+			path = ARSwiftAccessControlTests;
+			sourceTree = "<group>";
+		};
+		D96D711D28BE228700BC8617 /* ARSwiftAccessControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D96D711E28BE228700BC8617 /* ARSwiftAccessControlUITests.swift */,
+				D96D712028BE228700BC8617 /* ARSwiftAccessControlUITestsLaunchTests.swift */,
+			);
+			path = ARSwiftAccessControlUITests;
+			sourceTree = "<group>";
+		};
+		D96D714728BF476400BC8617 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				D96D714828BF476400BC8617 /* CustomButton.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D96D70F928BE228600BC8617 /* ARSwiftAccessControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96D712428BE228700BC8617 /* Build configuration list for PBXNativeTarget "ARSwiftAccessControl" */;
+			buildPhases = (
+				D96D70F628BE228600BC8617 /* Sources */,
+				D96D70F728BE228600BC8617 /* Frameworks */,
+				D96D70F828BE228600BC8617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96D715028BF480100BC8617 /* PBXTargetDependency */,
+			);
+			name = ARSwiftAccessControl;
+			productName = ARSwiftAccessControl;
+			productReference = D96D70FA28BE228600BC8617 /* ARSwiftAccessControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96D710F28BE228700BC8617 /* ARSwiftAccessControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96D712728BE228700BC8617 /* Build configuration list for PBXNativeTarget "ARSwiftAccessControlTests" */;
+			buildPhases = (
+				D96D710C28BE228700BC8617 /* Sources */,
+				D96D710D28BE228700BC8617 /* Frameworks */,
+				D96D710E28BE228700BC8617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96D711228BE228700BC8617 /* PBXTargetDependency */,
+			);
+			name = ARSwiftAccessControlTests;
+			productName = ARSwiftAccessControlTests;
+			productReference = D96D711028BE228700BC8617 /* ARSwiftAccessControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D96D711928BE228700BC8617 /* ARSwiftAccessControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96D712A28BE228700BC8617 /* Build configuration list for PBXNativeTarget "ARSwiftAccessControlUITests" */;
+			buildPhases = (
+				D96D711628BE228700BC8617 /* Sources */,
+				D96D711728BE228700BC8617 /* Frameworks */,
+				D96D711828BE228700BC8617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96D711C28BE228700BC8617 /* PBXTargetDependency */,
+			);
+			name = ARSwiftAccessControlUITests;
+			productName = ARSwiftAccessControlUITests;
+			productReference = D96D711A28BE228700BC8617 /* ARSwiftAccessControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D96D714528BF476400BC8617 /* CustomButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96D714A28BF476400BC8617 /* Build configuration list for PBXNativeTarget "CustomButton" */;
+			buildPhases = (
+				D96D714228BF476400BC8617 /* Sources */,
+				D96D714328BF476400BC8617 /* Frameworks */,
+				D96D714428BF476400BC8617 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomButton;
+			productName = CustomButton;
+			productReference = D96D714628BF476400BC8617 /* libCustomButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96D70F228BE228600BC8617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D96D70F928BE228600BC8617 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					D96D710F28BE228700BC8617 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = D96D70F928BE228600BC8617;
+					};
+					D96D711928BE228700BC8617 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = D96D70F928BE228600BC8617;
+					};
+					D96D714528BF476400BC8617 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = D96D70F528BE228600BC8617 /* Build configuration list for PBXProject "ARSwiftAccessControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96D70F128BE228600BC8617;
+			productRefGroup = D96D70FB28BE228600BC8617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D96D70F928BE228600BC8617 /* ARSwiftAccessControl */,
+				D96D710F28BE228700BC8617 /* ARSwiftAccessControlTests */,
+				D96D711928BE228700BC8617 /* ARSwiftAccessControlUITests */,
+				D96D714528BF476400BC8617 /* CustomButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D96D70F828BE228600BC8617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96D710A28BE228700BC8617 /* LaunchScreen.storyboard in Resources */,
+				D96D710728BE228700BC8617 /* Assets.xcassets in Resources */,
+				D96D710528BE228600BC8617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D710E28BE228700BC8617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D711828BE228700BC8617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D96D70F628BE228600BC8617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96D70FE28BE228600BC8617 /* AppDelegate.swift in Sources */,
+				D96D713228BE26B500BC8617 /* ARSubclass.swift in Sources */,
+				D96D715228BF487800BC8617 /* ARButton.swift in Sources */,
+				D96D712E28BE22AB00BC8617 /* ARAccessControl.swift in Sources */,
+				D96D710028BE228600BC8617 /* SceneDelegate.swift in Sources */,
+				D96D713028BE22BC00BC8617 /* ARViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D710C28BE228700BC8617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96D711528BE228700BC8617 /* ARSwiftAccessControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D711628BE228700BC8617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96D711F28BE228700BC8617 /* ARSwiftAccessControlUITests.swift in Sources */,
+				D96D712128BE228700BC8617 /* ARSwiftAccessControlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96D714228BF476400BC8617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96D714928BF476400BC8617 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96D711228BE228700BC8617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96D70F928BE228600BC8617 /* ARSwiftAccessControl */;
+			targetProxy = D96D711128BE228700BC8617 /* PBXContainerItemProxy */;
+		};
+		D96D711C28BE228700BC8617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96D70F928BE228600BC8617 /* ARSwiftAccessControl */;
+			targetProxy = D96D711B28BE228700BC8617 /* PBXContainerItemProxy */;
+		};
+		D96D715028BF480100BC8617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96D714528BF476400BC8617 /* CustomButton */;
+			targetProxy = D96D714F28BF480100BC8617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D96D710328BE228600BC8617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96D710428BE228600BC8617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D96D710828BE228700BC8617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96D710928BE228700BC8617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D96D712228BE228700BC8617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96D712328BE228700BC8617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96D712528BE228700BC8617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARSwiftAccessControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokrawat.ARSwiftAccessControl.ARSwiftAccessControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96D712628BE228700BC8617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARSwiftAccessControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokrawat.ARSwiftAccessControl.ARSwiftAccessControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D96D712828BE228700BC8617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokrawat.ARSwiftAccessControl.ARSwiftAccessControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSwiftAccessControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARSwiftAccessControl";
+			};
+			name = Debug;
+		};
+		D96D712928BE228700BC8617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokrawat.ARSwiftAccessControl.ARSwiftAccessControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSwiftAccessControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARSwiftAccessControl";
+			};
+			name = Release;
+		};
+		D96D712B28BE228700BC8617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokrawat.ARSwiftAccessControl.ARSwiftAccessControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSwiftAccessControl;
+			};
+			name = Debug;
+		};
+		D96D712C28BE228700BC8617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashokrawat.ARSwiftAccessControl.ARSwiftAccessControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSwiftAccessControl;
+			};
+			name = Release;
+		};
+		D96D714B28BF476400BC8617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96D714C28BF476400BC8617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D96D70F528BE228600BC8617 /* Build configuration list for PBXProject "ARSwiftAccessControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96D712228BE228700BC8617 /* Debug */,
+				D96D712328BE228700BC8617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96D712428BE228700BC8617 /* Build configuration list for PBXNativeTarget "ARSwiftAccessControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96D712528BE228700BC8617 /* Debug */,
+				D96D712628BE228700BC8617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96D712728BE228700BC8617 /* Build configuration list for PBXNativeTarget "ARSwiftAccessControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96D712828BE228700BC8617 /* Debug */,
+				D96D712928BE228700BC8617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96D712A28BE228700BC8617 /* Build configuration list for PBXNativeTarget "ARSwiftAccessControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96D712B28BE228700BC8617 /* Debug */,
+				D96D712C28BE228700BC8617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96D714A28BF476400BC8617 /* Build configuration list for PBXNativeTarget "CustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96D714B28BF476400BC8617 /* Debug */,
+				D96D714C28BF476400BC8617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D96D70F228BE228600BC8617 /* Project object */;
+}
